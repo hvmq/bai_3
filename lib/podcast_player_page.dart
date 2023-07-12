@@ -45,7 +45,7 @@ class _PodcastPlayerState extends State<PodcastPlayer> {
           padding: const EdgeInsets.all(13.0),
           child: Column(
             children: [
-              SizedBox(
+              const SizedBox(
                 height: 10,
               ),
               Center(
@@ -80,19 +80,19 @@ class _PodcastPlayerState extends State<PodcastPlayer> {
                   ]),
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 10,
               ),
               Center(
                 child: Text(
                   widget.song.name,
-                  style: TextStyle(
+                  style: const TextStyle(
                       color: Colors.white,
                       fontSize: 15,
                       fontWeight: FontWeight.w500),
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
               Row(
@@ -144,7 +144,7 @@ class _PodcastPlayerState extends State<PodcastPlayer> {
                 "assets/Timeline.png",
                 fit: BoxFit.fill,
               ),
-              SizedBox(
+              const SizedBox(
                 height: 10,
               ),
               Row(
