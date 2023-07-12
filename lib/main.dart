@@ -1,5 +1,5 @@
-import 'package:bai_3/bottom_bar.dart';
-import 'package:bai_3/home_screen_page.dart';
+
+import 'package:bai_3/pages/home_screen_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
